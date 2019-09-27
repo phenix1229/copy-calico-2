@@ -1,0 +1,146 @@
+body {
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+
+/* input.search-text {
+    background-color: orangered;
+    display: inline-block;
+    width: 430px;
+    height: 45px;
+    /* top: 405px; */
+    /* align-self: right; */
+    /* border: 1 0 1 1 solid black; */
+    /* position: auto; */
+    /* } */
+    
+    .logo{
+        /* text-align: center; */
+        display: block;
+        margin: 145px  auto 0;
+        /* align-self: center; */
+        width: 170px;
+        /* position: relative; */
+        /* top: 125px; */
+        /* border: none; */
+        /* color:#F7F7F7; */
+        /* border-block-color: #F7F7F7; */
+    }
+    
+    /* .logo:hover{
+        cursor: pointer;
+        
+    } */
+    
+    
+    
+    /* .caption{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 128px;
+        font-family: 'Courier New', Courier, monospace;
+    } */
+    
+    
+    
+    .search{
+        /* text-align: center; */
+        display:block;
+        width: 490px;
+        height: 35px;
+        /* padding: 0; */
+        margin: 0 auto;
+        /* top: 140px; */
+        background-color: aqua;
+        position: relative;  
+    }
+    
+    /* :focus{
+        outline-color: transparent;
+        outline-style: none;
+    } */
+    
+    .input{
+        display:inline-block;
+        width: 435px;
+        height: 29px;
+        /* text-align: center; */
+        /* align-self: center; */
+        /* margin: 0 auto; */
+        /* top:130px; */
+        position: relative;
+        /* padding: 0; */
+        top: -6.5px;
+        /* right: 50px;    */
+    }
+    
+    .search-button {
+        /* background-color: blueviolet; */
+        display: inline-block;
+        width: 50px;
+        height: 35px;
+        /* top: 405px; */
+        /* align-self: right; */
+        position: relative;
+        padding: 0;
+        /* right: 5px; */
+    }
+
+    #button{
+        display: block;
+        position: relative; 
+        /* border:0px solid #F7F7F7; */
+        top: -1.3px;
+        width: 20px;
+        height:19px;
+        /* right: -105px; */
+        text-align: right;
+        align-self: right;
+        cursor: pointer;
+        margin: 0 auto;
+        padding: 0;
+        /* background-color: #F7F7F7; */
+        /* background-repeat: no-repeat; */
+        /* background-size: 100px; */
+        
+        
+       
+    }  
+    
+    /* #icon{
+        background-repeat: no-repeat;
+        background-size: 20px;
+    }
+    
+    #button:hover{
+        background-color: green;
+       color: green;
+    }   
+    
+    
+    
+    
+    .words{
+        color: rgb(0, 0, 0);
+        text-decoration-line:none;
+        font-size: 80%;
+        text-align: center;
+        position: relative;
+        top: 135px;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 10px;
+    } */
+
+    @font-face {
+        font-family: "DDG_ProximaNova";
+  src: url("font/ProximaNova-Reg-webfont.eot?#iefix") format("embedded-opentype"), url("font/ProximaNova-Reg-webfont.woff") format("woff"), url("font/ProximaNova-Reg-webfont.ttf") format("truetype"), url("font/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-style: normal;
+  font-weight: normal;
+    }
+a {
+    text-decoration: none;
+    color: black;
+} 
