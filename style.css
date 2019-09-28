@@ -52,7 +52,10 @@ body {
         width: 490px;
         height: 35px;
         /* padding: 0; */
-        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
         /* top: 140px; */
         /* background-color: aqua; */
         position: relative;  
@@ -143,7 +146,7 @@ body {
 a {
     text-decoration: none;
     color: #A2A2A2;
-    font-family: DDG_ProximaNova;
+    font-display: DDG_ProximaNova;
 } 
 
 p {
@@ -153,7 +156,7 @@ p {
 .right-options {
     position: fixed;
     /* float: right; */
-    top: 0px;
+    top: 15px;
     right: 0px;;
     margin: 0px;
     align-content: right;
@@ -172,3 +175,14 @@ p {
     margin: 0px;
     display: inline-block;
 } 
+
+.drop-down {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.hb-menu {
+    vertical-align: middle;
+    display: inline-block;
+}
