@@ -54,7 +54,7 @@ body {
         /* padding: 0; */
         margin: 0 auto;
         /* top: 140px; */
-        background-color: aqua;
+        /* background-color: aqua; */
         position: relative;  
     }
     
@@ -134,13 +134,41 @@ body {
         font-size: 10px;
     } */
 
-    @font-face {
-        font-family: "DDG_ProximaNova";
-  src: url("font/ProximaNova-Reg-webfont.eot?#iefix") format("embedded-opentype"), url("font/ProximaNova-Reg-webfont.woff") format("woff"), url("font/ProximaNova-Reg-webfont.ttf") format("truetype"), url("font/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular") format("svg");
-  font-style: normal;
-  font-weight: normal;
+@font-face {
+    font-family: "DDG_ProximaNova";
+    src: url("font/ProximaNova-Reg-webfont.eot?#iefix") format("embedded-opentype"), url("font/ProximaNova-Reg-webfont.woff") format("woff"), url("font/ProximaNova-Reg-webfont.ttf") format("truetype"), url("font/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular") format("svg");
+    font-style: normal;
+    font-weight: normal;
     }
 a {
     text-decoration: none;
-    color: black;
+    color: #A2A2A2;
+    font-family: DDG_ProximaNova;
+} 
+
+p {
+    color: #A2A2A2;
+}
+
+.right-options {
+    position: fixed;
+    /* float: right; */
+    top: 0px;
+    right: 0px;;
+    margin: 0px;
+    align-content: right;
+     
+}
+
+.ro-text {
+    vertical-align: middle;
+    margin: 0px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.p-s {
+    vertical-align: middle;
+    margin: 0px;
+    display: inline-block;
 } 
