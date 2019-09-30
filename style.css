@@ -1,6 +1,7 @@
 body {
     background-color: #F7F7F7;
     text-align: center;
+    font-family: 'DDG_ProximaNova';
 }
 
 
@@ -92,6 +93,7 @@ body {
         /* right: 5px; */
     }
 
+    
     #button{
         display: block;
         position: relative; 
@@ -110,8 +112,12 @@ body {
         /* background-size: 100px; */
         
         
-       
+        
     }  
+    
+    .search-button :hover {
+        background-color: #AAAAAA;
+    }
     
     /* #icon{
         background-repeat: no-repeat;
@@ -182,7 +188,21 @@ p {
     margin-left: 0px;
 }
 
+
 .hb-menu {
     vertical-align: middle;
     display: inline-block;
+    
+}
+
+/* .hb-menu :hover {
+    background-color: #333333;
+    background-image: "./photos/menu-hovered.png"
+} */
+
+.man-down {
+    top: 150px;
+    margin-right: -15px;
+    display: inline-block;
+    position: relative;
 }
